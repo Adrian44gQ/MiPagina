@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="GAVA.png" width="200px" alt=""></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRRICULUM</a></li>
+                    <li><a href="#titulos"onclick="seleccionar()">TITULOS</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+                </ul> 
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Foto.jpg" alt=""></img">
+            </div>
+            <h1>GERMAN ADRIÁN VARGAS ÁLVAREZ</h1>
+            <h2>Ingeniero en sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/germanadrian.vargasalvarez/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/german-adri%C3%A1n-vargas-%C3%A1lvarez-2b7769223"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/german_adrian_alvarez/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Adrian44gQ"><i class="fa-brands fa-github"></i></a>
+                <a href="https://join.skype.com/invite/m1jbcH0MtQU5"><i class="fa-brands fa-skype"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MÍ</h2>
+            <p><span>Bienvenidos, soy German Vargas Álvarez.</span> Soy ingeniero en sistemas, enfocado en la optimización de sitios web, desarrollo de software, con conocimiento en analisis de requerimientos. Esta pagina es creada para otorgar una mejor vista hacia mi persona.</p>
+
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17-01-2001
+                        </li>
+                    
+                        <li>
+                            <strong>Telefono</strong>
+                            (+506) 8604-2552
+                        </li>
+                    
+                        <li>
+                            <strong>Email</strong>
+                            germanvar12@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            Pérez Zeledón, San José, Costa Rica.
+                        </li>
+
+                        <li>
+                            <strong>Cargo</strong>
+                           <span>Ingeniero en sistemas y consultor tecnico</span>                  
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>EJERCICIO</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>APRENDER</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <a href="https://drive.google.com/drive/folders/1PU5l04pDe3cy563-v5hAa0DGPQiA-Wa1?usp=drive_link">
+                <button>
+                     Obtener CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+                </a>
+        
+        </div>
+    </section>
+
+    <!-- SECCION DE Skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!--Technical skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <img src="JAVASCRIPT.png" alt="">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="HTML.png" alt="">
+                        <img src="Css.png" alt="">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="csharp.png" alt="">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="SQL.png" alt="">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="git.png" alt="">
+                        <span>GIT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="java.png" alt="">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="mysql.png" alt="">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="postgresql.png" alt="">
+                        <span>Postgresql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="DotNet.png" alt="">
+                        <span>.NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="oracle.png" alt="">
+                        <span>ORACLE</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="php.png" alt="">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="python.png" alt="">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Scrum.png" alt="">
+                        <span>SCRUM</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="VB.png" alt="">
+                        <span>VISUAL BASIC</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="PB.png" alt="">
+                        <span>Power BI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="figma.png" alt="">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="AURA.png" alt="">
+                        <span>AuraPortal</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Profesional skill-->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Analitico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de Problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Servicio al Cliente</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Universidad Internasional San isidro Labrador</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>La carrera contaba con una duración de 3 años, de las cuales se tomaron en cuenta materias como: Ingles, Matematicas, Logica, Prgramación con distintos lenguajes, Bases de datos, Analisis de datos, gestion de proyectos, redes, economia, contabilidad, sistemas operativos, entre otras materias</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachillerato en Educación Media</h4>
+                        <span class="casa">Colegio Nacional Vitual Marco Tulio Salazar Sede 12 de Marzo de 1948</span>
+                        <span class="fecha">2012 - 2017</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Titulo de Primaria</h4>
+                        <span class="casa">Escuela El Quemado</span>
+                        <span class="fecha">2006 - 2011</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Servicio al cliente</h4>
+                        <span class="casa"> AMAZON</span>
+                        <span class="fecha"> 09/2022 - 12/2022</span>
+                        <p> Atención a los clientes.
+                            Resolver problemas de cobros, devoluciones.
+                            Seguimientos de productos y cualquier consulta que los clientes tuvieran
+                            atreves de chat, llamada y correo electrónico al mismo tiempo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Pasante de Programador Oracle</h4>
+                        <span class="casa">Prointec</span>
+                        <span class="fecha">04/2022 - 05/2022</span>
+                        <p> Desarrollo de sitio web utilizando desarrollador de Oracle.
+                            Análisis de requisitos, para la implementación en el proyecto.
+                            Aporte de nuevas ideas.
+                            Mejora de consultas PL/SQL.
+                            Desarrollador Oracle, Formularios Oracle.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Consultor tecnico</h4>
+                        <span class="casa">AURAQUANTIC</span>
+                        <span class="fecha">11/2023 - Actual</span>
+                        <p> Encargado de la construcción de sitios web, automación de procesos para que mayor fluides en las empresas, pruebas de calidad de software, construcción de APIs tanto REST como SOAP.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCIÓN TITULOS-->
+      <SEction id="titulos" class="titulos">
+        <div class="contenido-seccion">
+            <h2>TÍTULOS</h2>
+            <div class="h3">
+                <h3>Click en los títulos para ver imagen</h3>
+            </div>
+            <!-- Lista de títulos -->
+             <div class="container">
+                <div class="title-list">
+                    <ul>
+                        <h2>AURAQUANTIC</h2>
+                        <li src="Certificado de administración e integración de AuraQuantic.png">Administración e Integración</li>
+                        <li src="Certificado de creación de componentes de AuraQuantic (1)_1.jpg">Creación de Componentes</li>
+                        <li src="Certificado en automatización avanzada de AuraQuantic_1.png">Automatización Avanzada</li>
+                        <li src="Certificado en BPMN de AuraQuantic_1.png">BPMN</li>
+                        <li src="Certificado en diseño de interfaces de AuraQuantic_1.png">Diseño de Interfaces</li>
+                        <li src="L2-AuraQuanticComponentbuilder_Badge20231019-29-6b6qmk_page-0001.jpg">Component Builder</li>
+                        <li src="L3-AuraQuanticAdvancedautomation_Badge20231129-29-ausrt6_1.png">Advanced Automation</li>
+                        <li src="L4-AuraQuanticInterfacedesign_Badge20231213-29-gtg1hp_1.png">Interface Desing</li>
+                        <li src="L5-AuraQuanticGovernanceandintegration_Badge20240220-31-6q6fek_page-0001.jpg">Governance and integration</li>
+                    </ul>
+                </div>
+                <div class="title-list">
+                    <ul>
+                        <h2>ANALISIS DE DATOS</h2>
+                        <li src="Analyzing and Visualizing Data the Google Way_page-0001.jpg">Analyzing and Visualizing Data</li>
+                        <li src="CertificadoDeFinalizacion_Aprende analisis de datos Ampliacion y aplicacion de los conocimientos basicos_page-0001.jpg">Aprende Analisis de Datos</li>
+                        <li src="CertificadoDeFinalizacion_Aprende analisis de datos fundamentos_1.jpg">Analsis de Datos Fundamentos</li>
+                        <li src="CertificadoDeFinalizacion_Aprende data science Conceptos basicos_page-0001.jpg">Data Science</li>
+                        <li src="CertificadoDeFinalizacion_Aprende data science Cuenta historias con los datos_page-0001.jpg">Story Telling</li>
+                        <li src="CertificadoDeFinalizacion_Gestion de datos con Microsoft 365_page-0001.jpg">Gestion de Datos</li>
+                        <li src="CertificadoDeFinalizacion_Introduccion a las habilidades profesionales en analisis de datos linkedin_1.jpg">Habilidades profesionales</li>
+                        <li src="CETAV_Excel.png">Excel Intermedio</li>
+                        <li src="Data_Analytics_Essentials_Badge20230826-28-yy4fxd_1.jpg">Data Analytics Essentials</li>
+                        <li src="CETAV_Excel.png">Excel Intermedio</li>
+                        <li src="Introduction to Business Analysis Using_page-0001.jpg">Business Analysis</li>
+                        <li src="Introduction_to_Data_Science_Badge20231009-29-9ogcj_1.jpg">Introduction Data Science</li>
+                    </ul>
+                </div>
+                <div class="title-list">
+                    <ul>
+                        <h2>INTELIGENCIA DE NEGOCIOS</h2>
+                        <li src="Business Intelligence Foundation Professional Certification-BIFPC™.png">Business Intelligence</li>
+                        <li src="Fundamentos en Gestion de Proyectos_1.jpg">Gestion de Proyectos</li>
+                        <li src="SAP_Conceptos_e_iniciación-Obtener_Certificado_de_aprovechamiento_23769_1.png">SAP</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="title-list">
+                    <ul>
+                        <h2>SCRUM</h2>
+                        <li src="972349_SFC_German Adrián Vargas Álvarez.jpg">SCRUM Fundamentals</li>
+                        <li src="Certificate_1.jpg">SCRUM Professional Certificate</li>
+                    </ul>
+                </div>
+                <div class="title-list">
+                    <ul>
+                        <h2>CIBERSEGURIDAD</h2>
+                        <li src="Introduccion a la ciberseguridad.png">Introduccion a la Ciberseguridad CISCO</li>
+                        <li src="Introduccion a la ciberseguridad_1.bmp">Introduccion a la Ciberseguridad</li>
+                        <li src="Cibersecurity Essentials_1.bmp">Cibersecurity Essentials</li>
+                    </ul>
+                </div>
+                <div class="title-list">
+                    <ul>
+                        <h2>OTROS</h2>
+                        <li src="Python_1.jpg">Python UISIL</li>
+                        <li src="Python_Essentials_1_Badge20230508-28-1g4x1nw_1.jpg">   Python Essentials CISCO</li>
+                        <li src="SQL_1.jpg">SQL</li>
+                        <li src="Titulo aplicaciones con java_0002.jpg">Java</li>
+                    </ul>
+                </div>
+        
+            </div>
+            <!-- Modal -->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img id="modal-image" src="" alt="Imagen del título">
+                </div>
+            </div>
+        
+        
+        </div>
+
+      </Section>
+
+     <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="Lib1.png" alt="">
+                    <div class="overlay">
+                        <h3>SITIO WEB LIBRERÍA</h3>
+                        <p>HTML/CSS/PHP</p>
+                    </div>
+                </div>
+                <div class="proyecto">   
+                    <img src="C1.png" alt="">
+                    <div class="overlay">
+                        <h3>PUNTO DE VENTA</h3>
+                        <p>C#/MySQL</p>
+                    </div>
+                </div>
+                <div class="proyecto">   
+                    <img src="VB1.png" alt="">
+                    <div class="overlay">
+                        <h3>PLANTILLA DE EMPLEADO</h3>
+                        <p>VISUAL BASIC</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="pinponpng.png" alt="">
+                    <div class="overlay">
+                        <h3>PIN-PON</h3>
+                        <p>C#</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="reproductor.png" alt="">
+                    <div class="overlay">
+                        <h3>REPRODUCTOR</h3>
+                        <p>JAVASCRIPT</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="banco.png" alt="">
+                    <div class="overlay">
+                        <h3>SIMULADOR DE BANCO</h3>
+                        <p>VISUAL BASIC</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="biblioCmas.png" alt="">
+                    <div class="overlay">
+                        <h3>BIBLIOTECA EN CONSOLA</h3>
+                        <p>C++</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="BufeVB.png" alt="">
+                    <div class="overlay">
+                        <h3>BUFFETE DE ABOGADOS</h3>
+                        <p>VISUAL BASIC</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="listadoClienVB.png" alt="">
+                    <div class="overlay">
+                        <h3>AGENDA DE CLIENTES</h3>
+                        <p>VISUAL BASIC</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="calcuCsh.png" alt="">
+                    <div class="overlay">
+                        <h3>CALCULADORA</h3>
+                        <p>C#</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ReparaCsh.png" alt="">
+                    <div class="overlay">
+                        <h3>ESTACIÓN DE REPARACIÓN EQUIPO DE COMPUTO</h3>
+                        <p>C#</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="OperacionesHTML.png" alt="">
+                    <div class="overlay">
+                        <h3>OPERACIONES MATEMATICAS</h3>
+                        <p>HTML/CSS/PHP</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="loginhtml.png" alt="">
+                    <div class="overlay">
+                        <h3>LOGIN</h3>
+                        <p>HTML/CSS/JAVASCRIPT</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="formRegiHTML.png" alt="">
+                    <div class="overlay">
+                        <h3>FORMULARIO DE REGISTRO DE PERSONAS</h3>
+                        <p>HTML/CSS/PHP</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="formuDatHTML.png" alt="">
+                    <div class="overlay">
+                        <h3>FORMULARIO DE DATOS PERSONALES</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="WebRecetas.png" alt="">
+                    <div class="overlay">
+                        <h3>Pagina web Recetas</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="WebVJ.png" alt="">
+                    <div class="overlay">
+                        <h3>Pagina web VideoJuegos</h3>
+                        <p>HTML/CSS/JavaScript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="galeriaIMG.png" alt="">
+                    <div class="overlay">
+                        <h3>Galeria de imagenes</h3>
+                        <p>HTML/CSS/JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                
+                    <form class="col" action="https://formspree.io/f/xpzgaznz" method="POST">
+                        <input type="text" name="name" required placeholder="Tu Nombre">
+                        <input type="tel" name="tel" placeholder="Número de Telefono">
+                        <input type="email" required name="email" placeholder="Correo Electronico">
+                        <input type="text" name="tema" required placeholder="Tema">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="#contacto">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                
+                <!-- MAPA -->
+                <div class="col">
+                    <img src="mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Pérez Zeledón, San josé, Costa Rica
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Numero: +506 8604-2552
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: germanvar12@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/germanadrian.vargasalvarez/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/german-adri%C3%A1n-vargas-%C3%A1lvarez-2b7769223"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/german_adrian_alvarez/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Adrian44gQ"><i class="fa-brands fa-github"></i></a>
+            <a href="https://join.skype.com/invite/m1jbcH0MtQU5"><i class="fa-brands fa-skype"></i></a>
+        </div>
+        <div class="creador">
+            <h4>© DERECHOS RESERVADOS</h4>
+            <h4>INGENIERO GERMAN ADRIÁN VARGAS ÁLVAREZ</h4>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
