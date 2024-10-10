@@ -72,14 +72,14 @@ html{
     margin-top: 7%;
     text-align: center;
     border-radius: 40px;
-    height: 710px;
+    height: 540px;
     margin-top: 150px;
 }
 .inicio .contenido-banner img{
     margin-top: 50px;
     border: 2px solid #42bd57;
     display: block;
-    width: 65%;
+    width: 40%;
     margin: auto;
     border-radius: 5;
 }
